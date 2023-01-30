@@ -3336,3 +3336,1163 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.01.30-06.18.05:740][847]LogPlayLevel: Display: Destroying online subsystem :Context_29
 [2023.01.30-06.21.07:829][491]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Pasted node  CustomEvent   conflicted with  Event BeginPlay  and was replaced as a Custom Event!
 [2023.01.30-06.21.08:330][510]LogEditorTransaction: Undo Paste clipboard contents
+[2023.01.30-06.22.01:649][160]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.22.01:691][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.01.30-06.22.02:050][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.22.02:077][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.22.02:105][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.01.30-06.22.02:122][197]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.22.02:123][197]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap5C03E4FF4E319A0187798B8FC7F2FF37.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.22.02:129][197]LogFileHelpers: Saving map 'DevMap' took 0.053
+[2023.01.30-06.22.02:135][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.52 sec)
+[2023.01.30-06.22.02:143][197]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.22.02:143][197]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.22.03:836][391]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-06.22.03:842][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-06.22.03:842][391]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 12:22:03)
+[2023.01.30-06.22.03:870][391]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.22.03:872][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002142s)
+[2023.01.30-06.22.03:872][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002167s)
+[2023.01.30-06.22.03:872][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-06.22.03:872][391]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-06.22.03:873][391]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2023.01.30-06.22.03:900][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.30-06.22.03:901][391]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-06.22.03:901][391]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-06.22.03:901][391]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-06.22.03:903][391]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-06.22.03:903][391]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-06.22.03:903][391]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-06.22.03:904][391]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-06.22.03:985][391]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-06.22.03:985][391]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-06.22.03:985][391]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-06.22.03:985][391]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-06.22.03:986][391]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.01.30-06.22.03:986][391]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=28
+[2023.01.30-06.22.03:987][391]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.01.30-06.22.03:987][391]LogInit: FAudioDevice initialized.
+[2023.01.30-06.22.03:987][391]LogAudio: Display: Audio Device (ID: 28) registered with world 'DevMap'.
+[2023.01.30-06.22.03:987][391]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.01.30-06.22.03:990][391]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-06.22.03:991][391]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-15.22.03
+[2023.01.30-06.22.03:991][391]LogWorld: Bringing up level for play took: 0.000540
+[2023.01.30-06.22.03:992][391]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.01.30-06.22.03:993][391]PIE: Server logged in
+[2023.01.30-06.22.03:994][391]PIE: Play in editor total start time 0.153 seconds.
+[2023.01.30-06.22.04:986][502]LogBlueprintUserMessages: [DevMap_C_45] fire! Ammo : 4
+[2023.01.30-06.22.05:145][521]LogBlueprintUserMessages: [DevMap_C_45] fire! Ammo : 3
+[2023.01.30-06.22.05:311][541]LogBlueprintUserMessages: [DevMap_C_45] fire! Ammo : 2
+[2023.01.30-06.22.05:470][560]LogBlueprintUserMessages: [DevMap_C_45] fire! Ammo : 1
+[2023.01.30-06.22.05:627][579]LogBlueprintUserMessages: [DevMap_C_45] fire! Ammo : 0
+[2023.01.30-06.22.05:794][599]LogBlueprintUserMessages: [DevMap_C_45] 장전이 필요합니다!
+[2023.01.30-06.22.06:045][629]LogBlueprintUserMessages: [DevMap_C_45] 장전이 필요합니다!
+[2023.01.30-06.22.06:228][651]LogBlueprintUserMessages: [DevMap_C_45] 장전이 필요합니다!
+[2023.01.30-06.22.06:570][692]LogBlueprintUserMessages: [DevMap_C_45] 장전이 필요합니다!
+[2023.01.30-06.22.06:727][711]LogBlueprintUserMessages: [DevMap_C_45] 장전!
+[2023.01.30-06.22.06:944][737]LogBlueprintUserMessages: [DevMap_C_45] 장전이 불필요합니다!
+[2023.01.30-06.22.07:111][757]LogBlueprintUserMessages: [DevMap_C_45] 장전이 불필요합니다!
+[2023.01.30-06.22.07:294][779]LogBlueprintUserMessages: [DevMap_C_45] 장전이 불필요합니다!
+[2023.01.30-06.22.07:453][798]LogBlueprintUserMessages: [DevMap_C_45] 장전이 불필요합니다!
+[2023.01.30-06.22.07:950][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.22.07:950][855]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.22.07:950][855]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-06.22.07:950][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.22.07:954][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-06.22.07:957][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.22.07:983][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.22.07:983][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.01.30-06.22.07:984][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.01.30-06.22.07:990][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.01.30-06.22.08:028][856]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.01.30-06.25.03:195][137]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.25.03:195][137]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.25.05:301][387]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.25.05:301][387]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.26.22:908][965]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.26.22:949][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.01.30-06.26.23:336][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.26.23:358][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.26.23:384][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.01.30-06.26.23:402][  4]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.26.23:402][  4]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap9ED144394E2CC0809FF4569330320CBB.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.26.23:408][  4]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-06.26.23:414][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 4.60 sec)
+[2023.01.30-06.26.23:423][  4]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.26.23:423][  4]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.26.24:350][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-06.26.24:356][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-06.26.24:356][100]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 12:26:24)
+[2023.01.30-06.26.24:400][100]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.26.24:402][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002119s)
+[2023.01.30-06.26.24:402][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002143s)
+[2023.01.30-06.26.24:402][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-06.26.24:402][100]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-06.26.24:402][100]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2023.01.30-06.26.24:429][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.01.30-06.26.24:431][100]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-06.26.24:431][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-06.26.24:431][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-06.26.24:431][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-06.26.24:431][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-06.26.24:431][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-06.26.24:433][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-06.26.24:514][100]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-06.26.24:514][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-06.26.24:514][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-06.26.24:514][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-06.26.24:515][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.01.30-06.26.24:515][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=29
+[2023.01.30-06.26.24:516][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.01.30-06.26.24:516][100]LogInit: FAudioDevice initialized.
+[2023.01.30-06.26.24:516][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.01.30-06.26.24:516][100]LogAudio: Display: Audio Device (ID: 29) registered with world 'DevMap'.
+[2023.01.30-06.26.24:518][100]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-06.26.24:518][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-15.26.24
+[2023.01.30-06.26.24:518][100]LogWorld: Bringing up level for play took: 0.000504
+[2023.01.30-06.26.24:521][100]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.30-06.26.24:522][100]LogBlueprintUserMessages: [DevMap_C_46] fire! Ammo : 4
+[2023.01.30-06.26.24:522][100]PIE: Server logged in
+[2023.01.30-06.26.24:522][100]PIE: Play in editor total start time 0.168 seconds.
+[2023.01.30-06.26.26:951][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.26.26:951][378]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.26.26:951][378]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-06.26.26:951][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.26.26:953][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-06.26.26:958][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.26.26:983][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.26.26:983][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.01.30-06.26.26:984][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.01.30-06.26.26:990][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-06.26.27:019][379]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.30-06.27.20:336][743]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.27.20:377][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-06.27.20:704][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.27.20:732][775]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.27.20:758][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.30-06.27.20:776][775]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.27.20:776][775]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap51DE9C2E4459623B8D657F8351E13869.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.27.20:783][775]LogFileHelpers: Saving map 'DevMap' took 0.052
+[2023.01.30-06.27.20:788][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 4.68 sec)
+[2023.01.30-06.27.20:794][775]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.27.20:794][775]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.27.21:811][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-06.27.21:818][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-06.27.21:818][882]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 12:27:21)
+[2023.01.30-06.27.21:818][882]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.27.21:820][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002057s)
+[2023.01.30-06.27.21:820][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002076s)
+[2023.01.30-06.27.21:820][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-06.27.21:820][882]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-06.27.21:820][882]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2023.01.30-06.27.21:846][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.30-06.27.21:847][882]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-06.27.21:847][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-06.27.21:847][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-06.27.21:847][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-06.27.21:847][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-06.27.21:847][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-06.27.21:850][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-06.27.21:928][882]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-06.27.21:928][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-06.27.21:928][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-06.27.21:928][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-06.27.21:930][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.01.30-06.27.21:930][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=30
+[2023.01.30-06.27.21:931][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.01.30-06.27.21:931][882]LogInit: FAudioDevice initialized.
+[2023.01.30-06.27.21:931][882]LogAudio: Display: Audio Device (ID: 30) registered with world 'DevMap'.
+[2023.01.30-06.27.21:931][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.01.30-06.27.21:934][882]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-06.27.21:934][882]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-15.27.21
+[2023.01.30-06.27.21:934][882]LogWorld: Bringing up level for play took: 0.000486
+[2023.01.30-06.27.21:935][882]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.01.30-06.27.21:936][882]PIE: Server logged in
+[2023.01.30-06.27.21:937][882]PIE: Play in editor total start time 0.122 seconds.
+[2023.01.30-06.27.22:140][897]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 4
+[2023.01.30-06.27.22:289][915]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 3
+[2023.01.30-06.27.22:438][933]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 2
+[2023.01.30-06.27.22:598][952]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 1
+[2023.01.30-06.27.22:764][972]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 0
+[2023.01.30-06.27.22:923][991]LogBlueprintUserMessages: [DevMap_C_47] 장전이 필요합니다!
+[2023.01.30-06.27.23:131][ 16]LogBlueprintUserMessages: [DevMap_C_47] 장전!
+[2023.01.30-06.27.23:322][ 39]LogBlueprintUserMessages: [DevMap_C_47] 장전이 불필요합니다!
+[2023.01.30-06.27.23:497][ 60]LogBlueprintUserMessages: [DevMap_C_47] 장전이 불필요합니다!
+[2023.01.30-06.27.23:638][ 77]LogBlueprintUserMessages: [DevMap_C_47] 장전이 불필요합니다!
+[2023.01.30-06.27.24:121][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.27.24:121][131]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.27.24:121][131]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-06.27.24:121][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.27.24:123][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-06.27.24:128][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.27.24:155][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.27.24:155][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.01.30-06.27.24:156][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.01.30-06.27.24:162][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.30-06.27.24:196][132]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.01.30-06.27.29:162][702]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-06.27.29:167][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-06.27.29:167][702]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 12:27:29)
+[2023.01.30-06.27.29:210][702]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.27.29:213][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002136s)
+[2023.01.30-06.27.29:213][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002167s)
+[2023.01.30-06.27.29:213][702]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-06.27.29:213][702]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-06.27.29:213][702]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2023.01.30-06.27.29:239][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-06.27.29:241][702]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-06.27.29:242][702]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-06.27.29:242][702]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-06.27.29:242][702]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-06.27.29:242][702]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-06.27.29:242][702]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-06.27.29:243][702]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-06.27.29:323][702]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-06.27.29:323][702]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-06.27.29:323][702]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-06.27.29:323][702]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-06.27.29:324][702]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.01.30-06.27.29:324][702]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=31
+[2023.01.30-06.27.29:325][702]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.01.30-06.27.29:325][702]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.01.30-06.27.29:325][702]LogInit: FAudioDevice initialized.
+[2023.01.30-06.27.29:325][702]LogAudio: Display: Audio Device (ID: 31) registered with world 'DevMap'.
+[2023.01.30-06.27.29:328][702]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-06.27.29:328][702]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-15.27.29
+[2023.01.30-06.27.29:328][702]LogWorld: Bringing up level for play took: 0.000502
+[2023.01.30-06.27.29:329][702]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.01.30-06.27.29:330][702]PIE: Server logged in
+[2023.01.30-06.27.29:331][702]PIE: Play in editor total start time 0.164 seconds.
+[2023.01.30-06.27.29:432][705]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_InputKey in object Function /Game/Maps/DevMap.DevMap_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_1:0000
+[2023.01.30-06.27.54:330][705]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2023.01.30-06.27.54:331][705]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-06.28.10:670][705]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 4
+[2023.01.30-06.28.14:248][ 57]LogSlate: Window 'StandardMacros' being destroyed
+[2023.01.30-06.28.14:257][ 57]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-06.28.14:257][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.28.18:913][601]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_InputKey in object Function /Game/Maps/DevMap.DevMap_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_1:0000
+[2023.01.30-06.28.23:370][601]LogBlueprintUserMessages: [DevMap_C_47] fire! Ammo : 3
+[2023.01.30-06.28.23:401][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.28.23:401][601]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-06.28.23:401][601]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-06.28.23:402][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.28.23:403][601]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-06.28.23:409][601]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-06.28.23:435][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-06.28.23:435][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.01.30-06.28.23:437][601]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.01.30-06.28.23:445][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.01.30-06.28.23:470][602]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.01.30-06.28.25:158][804]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.28.25:158][804]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-06.39.00:500][761]LogEditorTransaction: Undo Delete current selection
+[2023.01.30-06.39.08:886][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.39.08:909][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.39.08:939][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.01.30-06.39.08:959][713]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.39.08:960][713]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapD5EFDB0146A243C2713E7FA2A38678B1.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.39.08:965][713]LogFileHelpers: Saving map 'DevMap' took 0.058
+[2023.01.30-06.39.08:971][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 4.77 sec)
+[2023.01.30-06.39.08:978][713]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.39.08:978][713]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.40.21:775][922]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.40.21:777][922]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Set bRich  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.01.30-06.40.21:777][922]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Set bHighLevel  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.01.30-06.40.21:815][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.30-06.40.22:402][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.40.22:429][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.40.22:458][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.30-06.40.22:472][988]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.40.22:474][988]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapAA2741224FA8E322797E9A8E86F3CC5F.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.40.22:479][988]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-06.40.22:486][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 4.85 sec)
+[2023.01.30-06.40.22:492][988]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.40.22:492][988]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.40.58:250][215]LogDerivedDataCache: C:/Users/dudth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.080 and deleted 0 files with total size 0 MiB. Scanned 814 files in 813 folders with total size 10 MiB.
+[2023.01.30-06.40.59:357][348]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.40.59:397][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.30-06.40.59:906][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.40.59:933][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.40.59:960][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.30-06.40.59:974][404]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.40.59:974][404]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap0507CFBE4F1FF1DC704C8AB32AE53BC3.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.40.59:981][404]LogFileHelpers: Saving map 'DevMap' took 0.048
+[2023.01.30-06.40.59:986][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 4.93 sec)
+[2023.01.30-06.40.59:993][404]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.40.59:993][404]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-06.41.23:677][236]BlueprintLog: New page: Compile DevMap
+[2023.01.30-06.41.23:717][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-06.41.24:422][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-06.41.24:447][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-06.41.24:474][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.30-06.41.24:488][316]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-06.41.24:490][316]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap5F5B273748449EA665E116923B5E08FA.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-06.41.24:496][316]LogFileHelpers: Saving map 'DevMap' took 0.048
+[2023.01.30-06.41.24:501][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 5.01 sec)
+[2023.01.30-06.41.24:508][316]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-06.41.24:508][316]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.04.35:516][488]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [1100883ms] waiting for h/w. InstanceID=1
+[2023.01.30-07.04.36:950][488]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31536
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB86ED22-486C-9C34-E918-5AAA05E6E394%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=be3e575846f3dda0816e05bd646a7b4b%7C437bd718ded1428888d2211557f68bc3%7Cd3ea4540-b836-48fa-8de2-4076dc9cecf7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 0 (Too old connection (1112 seconds idle), disconnect it)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 2 (Closing connection 1)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: 0000067303A4AA00: libcurl info message cache 5 (Closing connection 2)
+[2023.01.30-07.04.36:960][489]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB86ED22-486C-9C34-E918-5AAA05E6E394%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=be3e575846f3dda0816e05bd646a7b4b%7C437bd718ded1428888d2211557f68bc3%7Cd3ea4540-b836-48fa-8de2-4076dc9cecf7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.01.30-07.04.37:313][490]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=8, SampleRate=48000, DeviceID={0.0.0.00000000}.{176b5315-d2af-400c-8014-99781c417baa}, Name=스피커(THX Spatial)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=136.29
+[2023.01.30-07.04.37:313][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2023.01.30-07.04.37:315][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.01.30-07.13.40:418][346]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.13.40:461][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.01.30-07.13.40:839][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.13.40:867][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.13.40:896][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.01.30-07.13.40:911][387]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.13.40:911][387]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap46FDD50F43B3846145F30DA798B0A66C.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.13.40:919][387]LogFileHelpers: Saving map 'DevMap' took 0.052
+[2023.01.30-07.13.40:924][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 5.10 sec)
+[2023.01.30-07.13.40:933][387]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.13.40:933][387]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.13.42:118][507]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.13.42:126][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.13.42:126][507]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:13:42)
+[2023.01.30-07.13.42:126][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.13.42:127][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002108s)
+[2023.01.30-07.13.42:127][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002135s)
+[2023.01.30-07.13.42:128][507]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.13.42:128][507]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.13.42:128][507]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2023.01.30-07.13.42:157][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.30-07.13.42:160][507]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.13.42:160][507]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.13.42:160][507]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.13.42:160][507]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.13.42:160][507]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.13.42:160][507]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.13.42:162][507]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.13.42:242][507]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.13.42:242][507]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.13.42:242][507]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.13.42:242][507]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.13.42:243][507]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2023.01.30-07.13.42:243][507]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=32
+[2023.01.30-07.13.42:244][507]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2023.01.30-07.13.42:244][507]LogInit: FAudioDevice initialized.
+[2023.01.30-07.13.42:244][507]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2023.01.30-07.13.42:244][507]LogAudio: Display: Audio Device (ID: 32) registered with world 'DevMap'.
+[2023.01.30-07.13.42:247][507]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.13.42:247][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.13.42
+[2023.01.30-07.13.42:247][507]LogWorld: Bringing up level for play took: 0.000786
+[2023.01.30-07.13.42:249][507]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.01.30-07.13.42:250][507]PIE: Server logged in
+[2023.01.30-07.13.42:251][507]PIE: Play in editor total start time 0.128 seconds.
+[2023.01.30-07.13.42:600][539]LogBlueprintUserMessages: [DevMap_C_51] A
+[2023.01.30-07.13.42:891][574]LogBlueprintUserMessages: [DevMap_C_51] B
+[2023.01.30-07.13.43:125][602]LogBlueprintUserMessages: [DevMap_C_51] A
+[2023.01.30-07.13.43:308][624]LogBlueprintUserMessages: [DevMap_C_51] B
+[2023.01.30-07.13.43:475][644]LogBlueprintUserMessages: [DevMap_C_51] A
+[2023.01.30-07.13.43:616][661]LogBlueprintUserMessages: [DevMap_C_51] B
+[2023.01.30-07.13.44:377][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.13.44:377][749]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.13.44:377][749]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.13.44:377][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.13.44:380][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.13.44:384][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.13.44:412][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.13.44:412][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.01.30-07.13.44:413][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.01.30-07.13.44:419][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.30-07.13.44:462][750]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.01.30-07.15.42:820][679]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.15.42:821][679]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Set bFlip  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.01.30-07.15.42:862][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.01.30-07.15.43:296][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.15.43:316][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.15.43:344][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.15.43:358][726]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.15.43:359][726]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapDDC246AB47FA37458BC9D486323A2B4A.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.15.43:366][726]LogFileHelpers: Saving map 'DevMap' took 0.050
+[2023.01.30-07.15.43:373][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 5.17 sec)
+[2023.01.30-07.15.43:378][726]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.15.43:378][726]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.15.44:533][848]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.15.44:539][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.15.44:539][848]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:15:44)
+[2023.01.30-07.15.44:576][848]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.15.44:577][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001802s)
+[2023.01.30-07.15.44:577][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.001828s)
+[2023.01.30-07.15.44:578][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.15.44:578][848]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.15.44:578][848]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2023.01.30-07.15.44:606][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.15.44:608][848]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.15.44:608][848]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.15.44:608][848]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.15.44:608][848]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.15.44:608][848]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.15.44:608][848]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.15.44:609][848]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.15.44:690][848]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.15.44:691][848]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.15.44:691][848]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.15.44:691][848]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.15.44:692][848]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.01.30-07.15.44:692][848]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=33
+[2023.01.30-07.15.44:693][848]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.01.30-07.15.44:693][848]LogInit: FAudioDevice initialized.
+[2023.01.30-07.15.44:693][848]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.01.30-07.15.44:693][848]LogAudio: Display: Audio Device (ID: 33) registered with world 'DevMap'.
+[2023.01.30-07.15.44:696][848]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.15.44:696][848]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.15.44
+[2023.01.30-07.15.44:696][848]LogWorld: Bringing up level for play took: 0.000494
+[2023.01.30-07.15.44:698][848]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.01.30-07.15.44:699][848]PIE: Server logged in
+[2023.01.30-07.15.44:699][848]PIE: Play in editor total start time 0.162 seconds.
+[2023.01.30-07.15.44:793][851]LogBlueprintUserMessages: [DevMap_C_52] A
+[2023.01.30-07.15.45:085][886]LogBlueprintUserMessages: [DevMap_C_52] A
+[2023.01.30-07.15.45:335][916]LogBlueprintUserMessages: [DevMap_C_52] A
+[2023.01.30-07.15.45:552][942]LogBlueprintUserMessages: [DevMap_C_52] A
+[2023.01.30-07.15.45:702][960]LogBlueprintUserMessages: [DevMap_C_52] A
+[2023.01.30-07.15.45:966][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.15.45:966][988]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.15.45:966][988]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.15.45:966][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.15.45:969][988]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.15.45:973][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.15.46:000][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.15.46:000][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.01.30-07.15.46:002][988]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.01.30-07.15.46:007][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.30-07.15.46:050][989]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.01.30-07.15.54:152][747]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.15.54:192][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-07.15.54:974][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.15.55:001][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.15.55:028][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.15.55:044][834]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.15.55:044][834]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapE210A5A341FE7EDA98E3CD93BB942812.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.15.55:051][834]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-07.15.55:056][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 5.26 sec)
+[2023.01.30-07.15.55:063][834]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.15.55:063][834]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.15.56:362][969]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.15.56:369][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.15.56:369][969]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:15:56)
+[2023.01.30-07.15.56:396][969]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.15.56:397][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001792s)
+[2023.01.30-07.15.56:397][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.001815s)
+[2023.01.30-07.15.56:397][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.15.56:398][969]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.15.56:398][969]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2023.01.30-07.15.56:425][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.15.56:429][969]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.15.56:429][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.15.56:429][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.15.56:429][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.15.56:429][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.15.56:429][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.15.56:431][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.15.56:508][969]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.15.56:509][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.15.56:509][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.15.56:509][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.15.56:509][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.01.30-07.15.56:509][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=34
+[2023.01.30-07.15.56:511][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.01.30-07.15.56:511][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.01.30-07.15.56:511][969]LogInit: FAudioDevice initialized.
+[2023.01.30-07.15.56:511][969]LogAudio: Display: Audio Device (ID: 34) registered with world 'DevMap'.
+[2023.01.30-07.15.56:513][969]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.15.56:514][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.15.56
+[2023.01.30-07.15.56:514][969]LogWorld: Bringing up level for play took: 0.000489
+[2023.01.30-07.15.56:516][969]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.01.30-07.15.56:517][969]PIE: Server logged in
+[2023.01.30-07.15.56:517][969]PIE: Play in editor total start time 0.15 seconds.
+[2023.01.30-07.15.56:613][972]LogBlueprintUserMessages: [DevMap_C_53] A
+[2023.01.30-07.15.56:879][  4]LogBlueprintUserMessages: [DevMap_C_53] B
+[2023.01.30-07.15.57:054][ 25]LogBlueprintUserMessages: [DevMap_C_53] A
+[2023.01.30-07.15.57:196][ 42]LogBlueprintUserMessages: [DevMap_C_53] B
+[2023.01.30-07.15.57:427][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.15.57:427][ 67]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.15.57:427][ 67]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.15.57:427][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.15.57:430][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.15.57:435][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.15.57:463][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.15.57:463][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.01.30-07.15.57:464][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.01.30-07.15.57:470][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.01.30-07.15.57:511][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.01.30-07.17.08:948][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.17.08:974][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.17.09:003][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.30-07.17.09:019][ 71]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.17.09:020][ 71]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap2509FF9E4FF8DBCD56F523A7E824473F.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.17.09:028][ 71]LogFileHelpers: Saving map 'DevMap' took 0.055
+[2023.01.30-07.17.09:034][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 5.34 sec)
+[2023.01.30-07.17.09:041][ 71]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.17.09:041][ 71]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.17.10:452][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.17.10:477][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.17.10:503][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.01.30-07.17.10:517][233]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.17.10:518][233]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap2F000D1148D9B57EBBB61B8DD877BBF4.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.17.10:525][233]LogFileHelpers: Saving map 'DevMap' took 0.049
+[2023.01.30-07.17.10:531][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 5.42 sec)
+[2023.01.30-07.17.10:538][233]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.17.10:538][233]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.17.10:851][268]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.17.10:892][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.20.51:941][ 87]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.20.51:943][ 87]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Can't parse default value 'False' for  Hp . Property: Hp.
+[2023.01.30-07.20.51:984][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.01.30-07.20.52:321][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.20.52:345][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.20.52:374][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.20.52:388][124]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.20.52:389][124]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap7C0216314F1A82D66EB1ECA45483510A.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.20.52:398][124]LogFileHelpers: Saving map 'DevMap' took 0.052
+[2023.01.30-07.20.52:404][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 5.50 sec)
+[2023.01.30-07.20.52:410][124]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.20.52:410][124]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.21.00:504][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.21.00:524][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.21.00:552][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.21.00:566][ 84]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.21.00:567][ 84]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap6197F42C40F2FE2E0771C58274659ED6.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.21.00:574][ 84]LogFileHelpers: Saving map 'DevMap' took 0.050
+[2023.01.30-07.21.00:581][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 5.58 sec)
+[2023.01.30-07.21.00:587][ 84]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.21.00:587][ 84]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.21.01:041][136]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.21.01:078][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.30-07.21.01:445][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.21.01:472][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.21.01:500][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.30-07.21.01:514][174]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.21.01:515][174]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap306AB890493DFEADA3A80EBEE4036156.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.21.01:522][174]LogFileHelpers: Saving map 'DevMap' took 0.050
+[2023.01.30-07.21.01:528][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 5.66 sec)
+[2023.01.30-07.21.01:534][174]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.21.01:534][174]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.21.54:607][568]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.21.54:648][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-07.21.55:119][619]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.21.55:148][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.21.55:176][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.01.30-07.21.55:191][619]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.21.55:192][619]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap648691E64EA2CD91A592CC9A96576B2F.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.21.55:200][619]LogFileHelpers: Saving map 'DevMap' took 0.052
+[2023.01.30-07.21.55:205][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 5.75 sec)
+[2023.01.30-07.21.55:212][619]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.21.55:212][619]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.21.56:220][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.21.56:227][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.21.56:227][733]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:21:56)
+[2023.01.30-07.21.56:246][733]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.21.56:248][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001814s)
+[2023.01.30-07.21.56:248][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.001839s)
+[2023.01.30-07.21.56:248][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.21.56:249][733]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.21.56:249][733]LogPlayLevel: PIE: World Init took: (0.000568s)
+[2023.01.30-07.21.56:276][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.21.56:277][733]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.21.56:277][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.21.56:277][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.21.56:278][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.21.56:278][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.21.56:278][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.21.56:279][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.21.56:360][733]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.21.56:360][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.21.56:360][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.21.56:360][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.21.56:360][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.01.30-07.21.56:361][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=35
+[2023.01.30-07.21.56:362][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.01.30-07.21.56:362][733]LogInit: FAudioDevice initialized.
+[2023.01.30-07.21.56:362][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.01.30-07.21.56:362][733]LogAudio: Display: Audio Device (ID: 35) registered with world 'DevMap'.
+[2023.01.30-07.21.56:364][733]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.21.56:365][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.21.56
+[2023.01.30-07.21.56:365][733]LogWorld: Bringing up level for play took: 0.000523
+[2023.01.30-07.21.56:366][733]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.01.30-07.21.56:367][733]PIE: Server logged in
+[2023.01.30-07.21.56:368][733]PIE: Play in editor total start time 0.144 seconds.
+[2023.01.30-07.21.58:156][939]LogBlueprintUserMessages: [DevMap_C_57] 90
+[2023.01.30-07.21.58:348][962]LogBlueprintUserMessages: [DevMap_C_57] 80
+[2023.01.30-07.21.58:522][983]LogBlueprintUserMessages: [DevMap_C_57] 70
+[2023.01.30-07.21.58:690][  3]LogBlueprintUserMessages: [DevMap_C_57] 60
+[2023.01.30-07.21.58:857][ 23]LogBlueprintUserMessages: [DevMap_C_57] 50
+[2023.01.30-07.21.59:031][ 44]LogBlueprintUserMessages: [DevMap_C_57] 40
+[2023.01.30-07.21.59:198][ 64]LogBlueprintUserMessages: [DevMap_C_57] 30
+[2023.01.30-07.21.59:365][ 84]LogBlueprintUserMessages: [DevMap_C_57] 20
+[2023.01.30-07.21.59:646][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.21.59:646][113]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.21.59:646][113]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.21.59:647][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.21.59:650][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.21.59:654][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.21.59:682][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.21.59:682][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.01.30-07.21.59:683][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.01.30-07.21.59:690][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.30-07.21.59:733][114]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.01.30-07.22.43:317][524]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.22.43:357][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.01.30-07.22.43:692][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.22.43:716][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.22.43:745][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.30-07.22.43:760][559]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.22.43:761][559]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap257B47724FC27F783821ADBD7680BE32.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.22.43:768][559]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-07.22.43:773][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 5.83 sec)
+[2023.01.30-07.22.43:779][559]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.22.43:779][559]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.22.45:323][711]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.22.45:329][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.22.45:329][711]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:22:45)
+[2023.01.30-07.22.45:356][711]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.22.45:358][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2023.01.30-07.22.45:358][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.001831s)
+[2023.01.30-07.22.45:358][711]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.22.45:358][711]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.22.45:358][711]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2023.01.30-07.22.45:386][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.22.45:388][711]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.22.45:388][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.22.45:389][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.22.45:389][711]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.22.45:389][711]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.22.45:389][711]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.22.45:390][711]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.22.45:471][711]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.22.45:472][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.22.45:472][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.22.45:472][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.22.45:473][711]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.01.30-07.22.45:473][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=36
+[2023.01.30-07.22.45:474][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.01.30-07.22.45:474][711]LogInit: FAudioDevice initialized.
+[2023.01.30-07.22.45:474][711]LogAudio: Display: Audio Device (ID: 36) registered with world 'DevMap'.
+[2023.01.30-07.22.45:474][711]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.01.30-07.22.45:477][711]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.22.45:477][711]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.22.45
+[2023.01.30-07.22.45:477][711]LogWorld: Bringing up level for play took: 0.000469
+[2023.01.30-07.22.45:478][711]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.01.30-07.22.45:479][711]PIE: Server logged in
+[2023.01.30-07.22.45:480][711]PIE: Play in editor total start time 0.152 seconds.
+[2023.01.30-07.22.45:919][755]LogBlueprintUserMessages: [DevMap_C_58] 0
+[2023.01.30-07.22.46:219][791]LogBlueprintUserMessages: [DevMap_C_58] -10
+[2023.01.30-07.22.46:343][806]LogBlueprintUserMessages: [DevMap_C_58] -20
+[2023.01.30-07.22.46:511][826]LogBlueprintUserMessages: [DevMap_C_58] -30
+[2023.01.30-07.22.47:027][888]LogBlueprintUserMessages: [DevMap_C_58] -40
+[2023.01.30-07.22.47:203][909]LogBlueprintUserMessages: [DevMap_C_58] -50
+[2023.01.30-07.22.47:587][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.22.47:587][949]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.22.47:587][949]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.22.47:587][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.22.47:589][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.22.47:594][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.22.47:621][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.22.47:621][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.30-07.22.47:622][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.30-07.22.47:627][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-07.22.47:670][950]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.01.30-07.23.02:657][634]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.23.02:698][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-07.23.03:352][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.23.03:377][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.23.03:405][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.30-07.23.03:420][707]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.23.03:421][707]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap5333C8374609B4793E19D9B4BC8D4CDF.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.23.03:428][707]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-07.23.03:433][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 5.91 sec)
+[2023.01.30-07.23.03:442][707]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.23.03:442][707]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.23.04:674][828]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.23.04:681][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.23.04:681][828]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:23:04)
+[2023.01.30-07.23.04:706][828]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.23.04:708][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001932s)
+[2023.01.30-07.23.04:708][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.001959s)
+[2023.01.30-07.23.04:708][828]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.23.04:708][828]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.23.04:708][828]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2023.01.30-07.23.04:736][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.23.04:738][828]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.23.04:738][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.23.04:738][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.23.04:738][828]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.23.04:738][828]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.23.04:738][828]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.23.04:740][828]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.23.04:820][828]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.23.04:820][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.23.04:820][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.23.04:820][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.23.04:821][828]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.01.30-07.23.04:821][828]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=37
+[2023.01.30-07.23.04:822][828]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.01.30-07.23.04:822][828]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.01.30-07.23.04:822][828]LogInit: FAudioDevice initialized.
+[2023.01.30-07.23.04:822][828]LogAudio: Display: Audio Device (ID: 37) registered with world 'DevMap'.
+[2023.01.30-07.23.04:824][828]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.23.04:824][828]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.23.04
+[2023.01.30-07.23.04:825][828]LogWorld: Bringing up level for play took: 0.000490
+[2023.01.30-07.23.04:827][828]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.01.30-07.23.04:827][828]PIE: Server logged in
+[2023.01.30-07.23.04:828][828]PIE: Play in editor total start time 0.149 seconds.
+[2023.01.30-07.23.05:144][857]LogBlueprintUserMessages: [DevMap_C_59] 90
+[2023.01.30-07.23.05:310][877]LogBlueprintUserMessages: [DevMap_C_59] 80
+[2023.01.30-07.23.05:485][898]LogBlueprintUserMessages: [DevMap_C_59] 70
+[2023.01.30-07.23.05:652][918]LogBlueprintUserMessages: [DevMap_C_59] 60
+[2023.01.30-07.23.05:818][938]LogBlueprintUserMessages: [DevMap_C_59] 50
+[2023.01.30-07.23.05:994][959]LogBlueprintUserMessages: [DevMap_C_59] 40
+[2023.01.30-07.23.06:160][979]LogBlueprintUserMessages: [DevMap_C_59] 30
+[2023.01.30-07.23.06:352][  2]LogBlueprintUserMessages: [DevMap_C_59] 20
+[2023.01.30-07.23.06:518][ 22]LogBlueprintUserMessages: [DevMap_C_59] 10
+[2023.01.30-07.23.06:710][ 45]LogBlueprintUserMessages: [DevMap_C_59] 0
+[2023.01.30-07.23.06:885][ 66]LogBlueprintUserMessages: [DevMap_C_59] 0
+[2023.01.30-07.23.07:077][ 89]LogBlueprintUserMessages: [DevMap_C_59] 0
+[2023.01.30-07.23.07:244][109]LogBlueprintUserMessages: [DevMap_C_59] 0
+[2023.01.30-07.23.07:897][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.23.07:897][183]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.23.07:897][183]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.23.07:897][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.23.07:900][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.23.07:905][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.23.07:930][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.23.07:931][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.30-07.23.07:932][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.30-07.23.07:937][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.30-07.23.07:979][184]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.01.30-07.24.30:162][685]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.24.30:202][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-07.24.30:737][735]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.24.30:760][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.24.30:788][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.30-07.24.30:802][735]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.24.30:803][735]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap328C60DB411976D699C4B1A5505B3FB3.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.24.30:811][735]LogFileHelpers: Saving map 'DevMap' took 0.051
+[2023.01.30-07.24.30:815][735]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 5.99 sec)
+[2023.01.30-07.24.30:822][735]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.24.30:822][735]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.25.07:555][ 87]LogEditorTransaction: Undo Paste clipboard contents
+[2023.01.30-07.25.39:852][706]LogEditorTransaction: Undo Create Pin Link
+[2023.01.30-07.26.54:668][504]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.26.54:708][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.30-07.26.55:212][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.26.55:242][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.26.55:270][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-07.26.55:287][558]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.26.55:287][558]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapA54999A44CBF471F0BF02C9D6FCA9E41.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.26.55:295][558]LogFileHelpers: Saving map 'DevMap' took 0.053
+[2023.01.30-07.26.55:301][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 6.08 sec)
+[2023.01.30-07.26.55:307][558]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.26.55:307][558]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.26.57:058][733]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.26.57:064][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.26.57:064][733]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:26:57)
+[2023.01.30-07.26.57:086][733]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.26.57:087][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2023.01.30-07.26.57:087][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002036s)
+[2023.01.30-07.26.57:087][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.26.57:088][733]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.26.57:088][733]LogPlayLevel: PIE: World Init took: (0.000555s)
+[2023.01.30-07.26.57:115][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.30-07.26.57:119][733]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.26.57:119][733]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.26.57:119][733]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.26.57:120][733]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.26.57:120][733]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.26.57:120][733]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.26.57:121][733]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.26.57:201][733]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.26.57:201][733]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.26.57:201][733]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.26.57:201][733]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.26.57:202][733]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.01.30-07.26.57:202][733]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=38
+[2023.01.30-07.26.57:203][733]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.01.30-07.26.57:203][733]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.01.30-07.26.57:203][733]LogInit: FAudioDevice initialized.
+[2023.01.30-07.26.57:203][733]LogAudio: Display: Audio Device (ID: 38) registered with world 'DevMap'.
+[2023.01.30-07.26.57:206][733]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.26.57:206][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.26.57
+[2023.01.30-07.26.57:207][733]LogWorld: Bringing up level for play took: 0.000538
+[2023.01.30-07.26.57:208][733]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2023.01.30-07.26.57:209][733]PIE: Server logged in
+[2023.01.30-07.26.57:209][733]PIE: Play in editor total start time 0.146 seconds.
+[2023.01.30-07.26.59:581][  9]LogBlueprintUserMessages: [DevMap_C_61] 90
+[2023.01.30-07.26.59:864][ 43]LogBlueprintUserMessages: [DevMap_C_61] 80
+[2023.01.30-07.27.00:055][ 66]LogBlueprintUserMessages: [DevMap_C_61] 70
+[2023.01.30-07.27.00:231][ 87]LogBlueprintUserMessages: [DevMap_C_61] 60
+[2023.01.30-07.27.00:489][118]LogBlueprintUserMessages: [DevMap_C_61] 80
+[2023.01.30-07.27.01:030][183]LogBlueprintUserMessages: [DevMap_C_61] 100
+[2023.01.30-07.27.01:530][243]LogBlueprintUserMessages: [DevMap_C_61] 100
+[2023.01.30-07.27.01:839][280]LogBlueprintUserMessages: [DevMap_C_61] 100
+[2023.01.30-07.27.02:055][306]LogBlueprintUserMessages: [DevMap_C_61] 90
+[2023.01.30-07.27.02:247][329]LogBlueprintUserMessages: [DevMap_C_61] 80
+[2023.01.30-07.27.02:414][349]LogBlueprintUserMessages: [DevMap_C_61] 70
+[2023.01.30-07.27.02:614][373]LogBlueprintUserMessages: [DevMap_C_61] 90
+[2023.01.30-07.27.02:755][390]LogBlueprintUserMessages: [DevMap_C_61] 100
+[2023.01.30-07.27.03:026][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.27.03:026][419]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.27.03:026][419]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.27.03:026][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.27.03:029][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.27.03:033][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.27.03:060][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.27.03:060][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.30-07.27.03:062][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.30-07.27.03:067][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.30-07.27.03:109][420]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2023.01.30-07.33.13:728][808]LogEditorTransaction: Undo Move Nodes
+[2023.01.30-07.33.14:436][852]LogEditorTransaction: Undo Move Node
+[2023.01.30-07.33.15:094][925]LogEditorTransaction: Undo Create Pin Link
+[2023.01.30-07.34.57:465][719]LogSlate: Window 'Change Variable Type' being destroyed
+[2023.01.30-07.35.00:283][ 28]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.01.30-07.35.00:288][ 28]LogSlate: Window 'Find in Blueprints' being destroyed
+[2023.01.30-07.39.48:042][940]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.39.48:043][940]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Set Hp  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.01.30-07.39.48:084][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.01.30-07.39.48:464][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.39.48:487][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.39.48:515][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.39.48:534][977]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.39.48:535][977]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapC0A647084E047F49EAFE57A8ED306461.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.39.48:544][977]LogFileHelpers: Saving map 'DevMap' took 0.058
+[2023.01.30-07.39.48:550][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 6.16 sec)
+[2023.01.30-07.39.48:556][977]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.39.48:556][977]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.39.49:588][ 76]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.39.49:594][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.39.49:594][ 76]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:39:49)
+[2023.01.30-07.39.49:626][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.39.49:628][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002404s)
+[2023.01.30-07.39.49:628][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002432s)
+[2023.01.30-07.39.49:628][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.39.49:629][ 76]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.39.49:629][ 76]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2023.01.30-07.39.49:659][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.39.49:662][ 76]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.39.49:662][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.39.49:662][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.39.49:663][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.39.49:663][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.39.49:663][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.39.49:664][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.39.49:744][ 76]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.39.49:744][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.39.49:744][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.39.49:744][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.39.49:745][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.01.30-07.39.49:745][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=39
+[2023.01.30-07.39.49:746][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.01.30-07.39.49:746][ 76]LogInit: FAudioDevice initialized.
+[2023.01.30-07.39.49:746][ 76]LogAudio: Display: Audio Device (ID: 39) registered with world 'DevMap'.
+[2023.01.30-07.39.49:746][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.01.30-07.39.49:748][ 76]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.39.49:748][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.39.49
+[2023.01.30-07.39.49:749][ 76]LogWorld: Bringing up level for play took: 0.000518
+[2023.01.30-07.39.49:750][ 76]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.01.30-07.39.49:751][ 76]PIE: Server logged in
+[2023.01.30-07.39.49:751][ 76]PIE: Play in editor total start time 0.159 seconds.
+[2023.01.30-07.39.50:096][108]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.50:461][152]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.50:903][205]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.51:061][224]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.51:313][254]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.51:504][277]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.51:720][303]LogBlueprintUserMessages: [DevMap_C_62] 0
+[2023.01.30-07.39.52:277][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.39.52:277][366]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.39.52:277][366]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.39.52:277][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.39.52:279][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.39.52:285][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.39.52:311][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.39.52:312][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.01.30-07.39.52:313][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.01.30-07.39.52:318][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.30-07.39.52:367][367]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.01.30-07.40.32:426][ 93]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.40.32:427][ 93]LogBlueprint: Warning: [AssetLog] C:\DEVELOPMENT\GIT\UE5\UE5_BP\Content\Maps\DevMap.umap: [Compiler] Set Hp  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.01.30-07.40.32:467][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-07.40.32:994][148]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.40.33:014][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.40.33:041][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.40.33:063][148]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.40.33:063][148]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap78A3F35945112AB6984C068C93BCDF4A.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.40.33:071][148]LogFileHelpers: Saving map 'DevMap' took 0.056
+[2023.01.30-07.40.33:076][148]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 6.24 sec)
+[2023.01.30-07.40.33:083][148]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.40.33:083][148]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.40.57:344][983]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.40.57:387][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.30-07.40.58:018][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.40.58:046][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.40.58:076][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.40.58:097][ 53]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.40.58:098][ 53]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap1E1141D2447DD51237C12BB340CBE2FB.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.40.58:105][ 53]LogFileHelpers: Saving map 'DevMap' took 0.060
+[2023.01.30-07.40.58:110][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 6.34 sec)
+[2023.01.30-07.40.58:116][ 53]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.40.58:116][ 53]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.41.03:096][624]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.41.03:136][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.30-07.41.03:573][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.41.03:596][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.41.03:626][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.01.30-07.41.03:648][669]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.41.03:648][669]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapD42AFAD9487ED09CDB98708B39900914.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.41.03:656][669]LogFileHelpers: Saving map 'DevMap' took 0.059
+[2023.01.30-07.41.03:661][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 6.42 sec)
+[2023.01.30-07.41.03:668][669]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.41.03:668][669]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.41.04:784][777]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.41.04:791][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.41.04:791][777]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:41:04)
+[2023.01.30-07.41.04:826][777]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.41.04:829][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002329s)
+[2023.01.30-07.41.04:829][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002357s)
+[2023.01.30-07.41.04:829][777]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.41.04:829][777]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.41.04:829][777]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2023.01.30-07.41.04:856][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.41.04:858][777]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.41.04:858][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.41.04:858][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.41.04:858][777]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.41.04:858][777]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.41.04:858][777]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.41.04:860][777]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.41.04:939][777]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.41.04:939][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.41.04:939][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.41.04:939][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.41.04:940][777]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.01.30-07.41.04:940][777]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=40
+[2023.01.30-07.41.04:941][777]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.01.30-07.41.04:941][777]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.01.30-07.41.04:941][777]LogInit: FAudioDevice initialized.
+[2023.01.30-07.41.04:941][777]LogAudio: Display: Audio Device (ID: 40) registered with world 'DevMap'.
+[2023.01.30-07.41.04:944][777]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.41.04:944][777]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.41.04
+[2023.01.30-07.41.04:944][777]LogWorld: Bringing up level for play took: 0.000514
+[2023.01.30-07.41.04:946][777]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.01.30-07.41.04:946][777]PIE: Server logged in
+[2023.01.30-07.41.04:947][777]PIE: Play in editor total start time 0.158 seconds.
+[2023.01.30-07.41.05:044][780]LogBlueprintDebug: Warning: Unknown breakpoint hit at node K2Node_InputKey in object Function /Game/Maps/DevMap.DevMap_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_1:0000
+[2023.01.30-07.41.07:497][780]LogBlueprintUserMessages: [DevMap_C_65] 90
+[2023.01.30-07.41.07:546][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.41.07:546][780]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.41.07:546][780]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.41.07:546][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.41.07:549][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.41.07:553][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.41.07:579][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.41.07:579][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.30-07.41.07:581][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.01.30-07.41.07:586][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.30-07.41.07:614][781]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.01.30-07.41.09:339][986]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-07.41.09:339][986]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Maps/DevMap.DevMap:PersistentLevel.DevMap without an associated node. The blueprint breakpoint has been removed
+[2023.01.30-07.41.10:666][140]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.41.10:711][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.01.30-07.41.11:147][184]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.41.11:173][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.41.11:201][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.41.11:223][184]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.41.11:223][184]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap4524C65C48223802A1F06BA78A2956ED.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.41.11:231][184]LogFileHelpers: Saving map 'DevMap' took 0.058
+[2023.01.30-07.41.11:236][184]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 6.51 sec)
+[2023.01.30-07.41.11:244][184]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.41.11:244][184]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.41.12:034][255]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.30-07.41.12:040][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.30-07.41.12:040][255]PIE: New page: PIE session: DevMap (2023. 1. 31. 오전 1:41:12)
+[2023.01.30-07.41.12:040][255]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.41.12:043][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002237s)
+[2023.01.30-07.41.12:043][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DevMap.DevMap to /Game/Maps/UEDPIE_0_DevMap.DevMap (0.002256s)
+[2023.01.30-07.41.12:043][255]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.30-07.41.12:043][255]LogAIModule: Creating AISystem for world DevMap
+[2023.01.30-07.41.12:043][255]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2023.01.30-07.41.12:070][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.30-07.41.12:073][255]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.30-07.41.12:073][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.30-07.41.12:073][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.30-07.41.12:073][255]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.30-07.41.12:073][255]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.30-07.41.12:073][255]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.30-07.41.12:076][255]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.30-07.41.12:154][255]LogAudioMixer: Display: Using Audio Hardware Device 스피커(THX Spatial)
+[2023.01.30-07.41.12:154][255]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.30-07.41.12:154][255]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.30-07.41.12:154][255]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.30-07.41.12:155][255]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.01.30-07.41.12:155][255]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=41
+[2023.01.30-07.41.12:156][255]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.01.30-07.41.12:156][255]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.01.30-07.41.12:156][255]LogInit: FAudioDevice initialized.
+[2023.01.30-07.41.12:156][255]LogAudio: Display: Audio Device (ID: 41) registered with world 'DevMap'.
+[2023.01.30-07.41.12:159][255]LogLoad: Game class is 'GameModeBase'
+[2023.01.30-07.41.12:159][255]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DevMap.DevMap up for play (max tick rate 0) at 2023.01.30-16.41.12
+[2023.01.30-07.41.12:159][255]LogWorld: Bringing up level for play took: 0.000505
+[2023.01.30-07.41.12:161][255]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.01.30-07.41.12:162][255]PIE: Server logged in
+[2023.01.30-07.41.12:162][255]PIE: Play in editor total start time 0.124 seconds.
+[2023.01.30-07.41.12:528][289]LogBlueprintUserMessages: [DevMap_C_66] 90
+[2023.01.30-07.41.12:844][327]LogBlueprintUserMessages: [DevMap_C_66] 80
+[2023.01.30-07.41.13:028][349]LogBlueprintUserMessages: [DevMap_C_66] 70
+[2023.01.30-07.41.13:220][372]LogBlueprintUserMessages: [DevMap_C_66] 60
+[2023.01.30-07.41.13:395][393]LogBlueprintUserMessages: [DevMap_C_66] 50
+[2023.01.30-07.41.13:587][416]LogBlueprintUserMessages: [DevMap_C_66] 70
+[2023.01.30-07.41.13:744][435]LogBlueprintUserMessages: [DevMap_C_66] 90
+[2023.01.30-07.41.13:928][457]LogBlueprintUserMessages: [DevMap_C_66] 100
+[2023.01.30-07.41.14:103][478]LogBlueprintUserMessages: [DevMap_C_66] 100
+[2023.01.30-07.41.14:544][531]LogBlueprintUserMessages: [DevMap_C_66] 90
+[2023.01.30-07.41.14:737][554]LogBlueprintUserMessages: [DevMap_C_66] 80
+[2023.01.30-07.41.14:911][575]LogBlueprintUserMessages: [DevMap_C_66] 70
+[2023.01.30-07.41.15:236][614]LogBlueprintUserMessages: [DevMap_C_66] 60
+[2023.01.30-07.41.15:394][633]LogBlueprintUserMessages: [DevMap_C_66] 50
+[2023.01.30-07.41.15:703][670]LogBlueprintUserMessages: [DevMap_C_66] 40
+[2023.01.30-07.41.15:861][689]LogBlueprintUserMessages: [DevMap_C_66] 30
+[2023.01.30-07.41.16:003][706]LogBlueprintUserMessages: [DevMap_C_66] 20
+[2023.01.30-07.41.16:178][727]LogBlueprintUserMessages: [DevMap_C_66] 10
+[2023.01.30-07.41.16:336][746]LogBlueprintUserMessages: [DevMap_C_66] 0
+[2023.01.30-07.41.16:486][764]LogBlueprintUserMessages: [DevMap_C_66] 0
+[2023.01.30-07.41.16:636][782]LogBlueprintUserMessages: [DevMap_C_66] 0
+[2023.01.30-07.41.16:937][818]LogBlueprintUserMessages: [DevMap_C_66] 20
+[2023.01.30-07.41.17:086][836]LogBlueprintUserMessages: [DevMap_C_66] 40
+[2023.01.30-07.41.17:244][855]LogBlueprintUserMessages: [DevMap_C_66] 60
+[2023.01.30-07.41.17:394][873]LogBlueprintUserMessages: [DevMap_C_66] 80
+[2023.01.30-07.41.17:544][891]LogBlueprintUserMessages: [DevMap_C_66] 100
+[2023.01.30-07.41.18:016][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.41.18:016][943]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DevMap
+[2023.01.30-07.41.18:016][943]LogWorld: UWorld::CleanupWorld for DevMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.30-07.41.18:016][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.41.18:018][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.30-07.41.18:024][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.30-07.41.18:049][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.30-07.41.18:050][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.01.30-07.41.18:051][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.01.30-07.41.18:056][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.30-07.41.18:086][944]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.01.30-07.41.54:080][608]BlueprintLog: New page: Compile DevMap
+[2023.01.30-07.41.54:122][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.30-07.41.54:633][660]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.41.54:659][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.41.54:688][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.01.30-07.41.54:707][660]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.41.54:708][660]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapADAA271546409EE21FF09BAD16ADBF1B.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.41.54:715][660]LogFileHelpers: Saving map 'DevMap' took 0.057
+[2023.01.30-07.41.54:721][660]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 6.60 sec)
+[2023.01.30-07.41.54:727][660]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.41.54:727][660]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.41.59:450][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.41.59:495][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.41.59:521][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.01.30-07.41.59:540][788]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.41.59:540][788]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMap65DEE81B45AD56BEE71702B508EF11CE.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.41.59:549][788]LogFileHelpers: Saving map 'DevMap' took 0.054
+[2023.01.30-07.41.59:553][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 6.70 sec)
+[2023.01.30-07.41.59:561][788]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.41.59:561][788]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
+[2023.01.30-07.42.00:325][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.30-07.42.00:357][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/DevMap" FILE="../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.01.30-07.42.00:383][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.01.30-07.42.00:402][868]LogSavePackage: Moving output files for package: /Game/Maps/DevMap
+[2023.01.30-07.42.00:404][868]LogSavePackage: Moving '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Saved/DevMapF989851643B4544F19134091CCA8882A.tmp' to '../../../../../../DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap'
+[2023.01.30-07.42.00:410][868]LogFileHelpers: Saving map 'DevMap' took 0.055
+[2023.01.30-07.42.00:417][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 6.80 sec)
+[2023.01.30-07.42.00:424][868]AssetCheck: New page: Asset Save: DevMap
+[2023.01.30-07.42.00:424][868]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DevMap.DevMap
