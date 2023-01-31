@@ -5,10 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/DEVELOPMENT/UE5/UE5_BP/Content/Maps/DevMap.umap",
 				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/DevMap.umap",
-				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Blueprints/EState.uasset",
 				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Blueprints/MyFumcLib.uasset",
+				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Maps/BP_Player.uasset",
+				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Blueprints/BP_Player.uasset",
+				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Blueprints/BP_Monster.uasset",
+				"C:/DEVELOPMENT/UE5/UE5_BP/Content/Maps/DevMap.umap",
+				"C:/DEVELOPMENT/GIT/UE5/UE5_BP/Content/Blueprints/EState.uasset",
 				"C:/DEVELOPMENT/UE5/UE5_BP/Content/DevMap.umap"
 			]
 		}
