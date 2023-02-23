@@ -73,3 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 Content/ParagonLtBelica
+Content/__ExternalActors__
+Content/Characters
+Content/StarterContent
